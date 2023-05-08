@@ -1,5 +1,5 @@
 function updateVisitorCount() {
-  fetch('https://cyczh9w9uf.execute-api.us-east-1.amazonaws.com/prod/counter')
+  fetch('https://1nwyc8f74b.execute-api.us-east-1.amazonaws.com/prod/counter')
     .then((response) => {
       console.log('Fetch response:', response);
       return response.json();
